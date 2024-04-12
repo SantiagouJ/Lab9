@@ -1,0 +1,74 @@
+#caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#mensajes{
+    border: solid;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
+#usuarios{
+    border: solid;
+    width: 80%;
+    height: 100px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+img{
+    width: 50px;
+}
+#user1{
+ 
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+#user2{
+    
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.msguser{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+}
+.enviar1{
+    width: 100px;
+    height: 40px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+}
+.enviar2{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 149, 206);
+    border: none;
+    border-radius: 5px;
+}
+.user1-message {
+    background-color: aquamarine;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.user2-message {
+    background-color: rgb(255, 149, 206);
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+}
